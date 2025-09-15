@@ -1,4 +1,4 @@
-# Control remoto de un brazo robótico mediante cinemática inversa y visión estéreo
+# TFM: Control remoto de un brazo robótico mediante cinemática inversa y visión estéreo
 
 **Autor:** Oihana Elizagoyen Ugalde<br>
 **Tutor:** Asier Marzo<br>
