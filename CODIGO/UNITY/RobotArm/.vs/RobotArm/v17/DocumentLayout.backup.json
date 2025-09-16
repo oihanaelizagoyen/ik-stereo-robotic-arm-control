@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\RobotArm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\RobotArm\\assets\\scripts\\webcamvisualizationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\webcamvisualizationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\robotarm\\assets\\scripts\\robotarmstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\robotarmstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\RobotArm\\assets\\scripts\\robotarmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\robotarmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\RobotArm\\assets\\scripts\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\robotarm\\assets\\scripts\\researchercanvasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\researchercanvasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\RobotArm\\assets\\scripts\\inputdevicesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputdevicesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\RobotArm\\assets\\scripts\\tcpclienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6C1FBD-22DD-4D31-B91A-4C4C72255E94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tcpclienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RobotArmState.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\RobotArmState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RobotArmState.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\RobotArmState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RobotArmState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T18:18:38.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResearcherCanvasManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\ResearcherCanvasManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResearcherCanvasManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\ResearcherCanvasManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResearcherCanvasManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:29:33.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebcamVisualizationManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\WebcamVisualizationManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WebcamVisualizationManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\WebcamVisualizationManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WebcamVisualizationManager.cs",
+              "ViewState": "AgIAABsAAAAAnJmZmZkuwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T10:47:04.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InputDevicesManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\InputDevicesManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputDevicesManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\InputDevicesManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputDevicesManager.cs",
+              "ViewState": "AgIAACkAAACA1MzMzMwmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T21:50:23.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RobotArmController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\RobotArmController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RobotArmController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\RobotArmController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RobotArmController.cs",
+              "ViewState": "AgIAACABAAAAZszMzEwWwOQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T20:47:23.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TCPClientHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\TCPClientHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TCPClientHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\TCPClientHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TCPClientHandler.cs",
+              "ViewState": "AgIAACUAAAAACQAAAAAmwBoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T21:50:37.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\Enums.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enums.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\RobotArm\\Assets\\Scripts\\Enums.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T20:46:58.028Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0"?> 
+ <robot name="brazo_robot"> 
+     <link name="base"> 
+         <visual>
+             <origin rpy="0 0 0" xyz="0 0 0.0284"/> 
+             <geometry> 
+                 <cylinder radius="0.046" length="0.0568"/> 
+             </geometry>
+         </visual> 
+     </link>
+     <link name="eje_central"> 
+         <visual>
+             <origin rpy="0 0 0" xyz="0 0 0.0468"/>
+             <geometry> 
+                 <box size="0.048 0.0285 0.0935"/> 
+             </geometry> 
+         </visual> 
+     </link>
+     <joint name="union_base_eje_central" type="revolute">
+         <origin rpy="0 0 -1.570796327" xyz="0.0039 0.0182 0.0568"/>
+         <parent link="base"/>
+         <child link="eje_central"/>
+         <axis xyz="0 0 1"/>
+         <limit lower="0" upper="3.141592654"/>
+     </joint>
+     <link name="antebrazo"> 
+         <visual>
+             <origin rpy="0 0 0" xyz="0 0 0.0560"/>
+             <geometry> 
+                 <box size="0.042 0.0275 0.1619"/>  
+             </geometry> 
+         </visual> 
+     </link>
+     <joint name="union_eje_central_antebrazo" type="revolute">
+         <origin rpy="0 1.308996939 0" xyz="0 -0.0280 0.0695"/>
+         <parent link="eje_central"/>
+         <child link="antebrazo"/>
+         <axis xyz="0 -1 0"/>
+         <limit lower="0" upper="2.617993878"/>
+     </joint>
+     <link name="brazo"> 
+         <visual>
+             <origin rpy="0 0 0" xyz="0 0 0.0354"/>
+             <geometry> 
+                 <cylinder radius="0.019" length="0.1107"/> 
+             </geometry> 
+         </visual> 
+     </link>
+     <joint name="union_antebraz_brazo" type="revolute">
+         <origin rpy="0 -1.570796327 0" xyz="0 0.0210 0.1199"/>
+         <parent link="antebrazo"/>
+         <child link="brazo"/>
+         <axis xyz="0 1 0"/>
+         <limit lower="0" upper="3.141592654"/>
+     </joint>
+     <link name="muneca"> 
+         <visual> 
+             <origin rpy="0 0 0" xyz="0 0 0.0257"/>
+             <geometry> 
+                 <cylinder radius="0.0190" length="0.0515"/> 
+             </geometry> 
+         </visual> 
+     </link>
+     <joint name="union_brazo_muneca" type="revolute">
+         <origin rpy="0 0 -1.570796327" xyz="0 0 0.0907"/>
+         <parent link="brazo"/>
+         <child link="muneca"/>
+         <axis xyz="0 0 1"/>
+         <limit lower="0" upper="3.141592654"/>
+     </joint>
+     <link name="garra_inferior"> 
+         <visual> 
+             <origin rpy="0 0 0" xyz="0 0 0.0015"/>
+             <geometry> 
+                 <box size="0.038 0.0087 0.0411"/>
+             </geometry> 
+         </visual> 
+     </link>
+     <joint name="union_muneca_garra" type="revolute">
+         <origin rpy="0 1.570796327 0" xyz="0 -0.0186 0.0319"/>
+         <parent link="muneca"/>
+         <child link="garra_inferior"/>
+         <axis xyz="0 -1 0"/>
+         <limit lower="0" upper="3.141592654"/>
+     </joint>
+     <link name="garra_superior"> 
+         <visual> 
+             <origin rpy="0 0 0" xyz="0 0 0.054"/>
+             <geometry> 
+                 <box size="0.0168 0.0470 0.1080"/>
+             </geometry> 
+         </visual> 
+     </link>
+     <joint name="union_garra" type="fixed">
+         <origin rpy="0 0 0" xyz="0 0.0192 0.0220"/>
+         <parent link="garra_inferior"/>
+         <child link="garra_superior"/>
+     </joint>
+ </robot>
