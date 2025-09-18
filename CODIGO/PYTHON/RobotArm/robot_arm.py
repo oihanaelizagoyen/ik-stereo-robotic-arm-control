@@ -279,7 +279,9 @@ class RobotArmApp:
             self.running = False
             return
         
-        self.ax.clear()
+        self.fig.clf()
+        self.ax = self.fig.add_subplot(111, projection='3d')
+
         self.kinematics_chain.plot(self.servo_angles, self.ax, target=target_position)
         self.ax = self.configure_axis(self.ax)
 
